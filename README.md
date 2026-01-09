@@ -7,7 +7,7 @@
 ![MONAI](https://img.shields.io/badge/MONAI-1.4.0-00c0b5)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/latent-diffusion-autoencoders-toward/linear-probe-classification-on-adni)](https://paperswithcode.com/sota/linear-probe-classification-on-adni?p=latent-diffusion-autoencoders-toward)
 
-Official implementation of the paper: **"[Latent Diffusion Autoencoders: Toward Efficient and Meaningful Unsupervised Representation Learning in Medical Imaging](https://arxiv.org/abs/2504.08635)"**.
+Official implementation of the paper: **"[Latent Diffusion Autoencoders: Toward Efficient and Meaningful Unsupervised Representation Learning in Medical Imaging (Medical Image Analysis 2026)](https://doi.org/10.1016/j.media.2026.103932)"**.
 
 <p align="center">
   <img src="readme_files/LDAE.png" alt="LDAE Framework Overview"/>
@@ -311,14 +311,13 @@ LDAE maintains high reconstruction quality (SSIM > 0.93) when interpolating betw
 
 If you use this work, please cite:
 ```bibtex
-@misc{lozupone2025latentdiffusionautoencodersefficient,
-      title={Latent Diffusion Autoencoders: Toward Efficient and Meaningful Unsupervised Representation Learning in Medical Imaging}, 
-      author={Gabriele Lozupone and Alessandro Bria and Francesco Fontanella and Frederick J. A. Meijer and Claudio De Stefano and Henkjan Huisman},
-      year={2025},
-      eprint={2504.08635},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2504.08635}, 
+@article{lozupone2026latent,
+  title={Latent Diffusion Autoencoders: Toward Efficient and Meaningful Unsupervised Representation Learning in Medical Imaging--A Case Study on Alzheimer’s Disease},
+  author={Lozupone, Gabriele and Bria, Alessandro and Fontanella, Francesco and Meijer, Frederick JA and De Stefano, Claudio and Huisman, Henkjan and others},
+  journal={Medical Image Analysis},
+  pages={103932},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
